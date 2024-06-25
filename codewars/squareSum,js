@@ -1,0 +1,5 @@
+function squareSum(numbers) {
+  return numbers
+    .map((number) => number ** 2)
+    .reduce((acc, curr) => acc + curr, 0);
+}
